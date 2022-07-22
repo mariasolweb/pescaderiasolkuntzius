@@ -1,0 +1,99 @@
+
+/********me gustaria que de bg sea la imagen atras de la transparecncia del navbar
+body {
+    background-image: url(/img/header.png);
+    background-repeat: repeat-x
+}
+****/
+h2,h3,h4 {
+    color: yellow;
+    font-style: italic;
+
+}
+.bg_lightblue{
+    background-color:  rgba(176, 196, 222, 0.8);
+}
+
+#botonera ul li a{
+    color: rgb(18, 52, 116);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+    font-size: 1.3em;
+   
+}
+    #botonera ul li a:hover {
+        color: orangered;
+    }
+
+        #botonera button{
+            color:rgb(18, 52, 116);
+            border-color: rgb(18, 52, 116);
+        }
+
+.bg_blue{
+    background-color: rgb(18, 52, 116);
+}
+
+.article1{
+    background-color: rgb(18, 52, 116);
+    width: 70%;
+    padding: 20px 50px;
+    border: solid orangered 2px ;
+    margin: 2rem auto;
+
+}
+
+.bg_pescaderia {
+    background-image: url(/img/header.png);
+    color:rgba(176, 196, 222, 0.8);
+    font-family: 'Roboto Condensed', sans-serif;;
+    text-align: center;
+     
+}
+.bg_pescaderia h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+
+.button{
+    background-color:yellow;
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    font-size: small;
+}
+
+.text_lightblue {
+    color: rgba(176, 196, 222, 0.8);
+}
+
+.article2{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: white; 
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.article2 h2{
+font-family:'Roboto', sans-serif;
+
+}
+
+.imagen_index img{
+    min-width: 60%;
+   
+    
+}
+.article3{
+    background-color: rgb(18, 52, 116);
+    width: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: white;
+  
+}
+
+
+

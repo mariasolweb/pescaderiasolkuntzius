@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Julian Productos de Mar</title>
+    <link rel="shortcut icon" href="../img/favicon san julian.png">
+    <!-- BS css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- mi css -->
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+    <!--  inicia nav-->
+    <div class="bg_foto ">
+        <nav class="navbar navbar-expand-lg bg_lightblue " id="botonera">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/SAN JULIAN.png" alt="logo de san julian">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2  mb-lg-0 my-5">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="productos.html">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="envios.html">ENVIOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="recetas.html">RECETAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex form_buscar" role="search">
+                        <input class="form-control me-2" type="search" placeholder="buscar producto"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+
+
+
+        </nav>
+    </div>
+    <!-- ends nav-->
+    <!--inicia card productos-->
+    <div class="container-fluid row ">
+        <div class="titulo_prod">
+            <h1>PRODUCTOS</h1>
+            <h2>FRESCOS</h2>
+        </div>
+        <div id="categorias_prod" class="col-3 g-2 categ_text">
+            <h6>CATEGORIAS</h6>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    FRESCOS
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    CONGELADOS
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    ELABORADOS
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    REBOZADOS
+                </label>
+            </div>
+        </div>
+
+
+
+        <div id="productos" class=" row col-9 row-cols-1 row-cols-md-3 g-2">
+            <div>
+                <div class="card h-100 ">
+                    <img src="../img/merluza.png" class="card-img-top" alt="foto de merluza">
+                    <div class="card-body">
+                        <h5 class="card-title">MERLUZA</h5>
+                        <p class="card-text">Peso: 500g.</p>
+                        <p> Precio: $990</p>
+                        <a href="#" class="btn btn_agregar">AGREGAR</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card h-100">
+                    <img src="../img/calamar.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CALAMAR ENTERO</h5>
+                        <p class="card-text">This is a short card.</p>
+                        <a href="#" class="btn btn_agregar">AGREGAR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../img/abadejo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ABADEJO</h5>
+                        <p class="card-text">Peso: 1Kg.</p>
+                        <p class="card-text">Precio: 1500</p>
+                        <a href="#" class="btn btn_agregar">AGREGAR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../img/salmon.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">SALMON</h5>
+                        <p class="card-text">Peso: 1Kg.</p>
+                        <p class="card-text">Precio: 3600</p>
+                        <a href="#" class="btn btn_agregar">AGREGAR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../img/cornalitos.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CORNALITOS</h5>
+                        <p class="card-text">Peso: 1Kg.</p>
+                        <p class="card-text">Precio: 1800</p>
+                        <a href="#" class="btn btn_agregar">AGREGAR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../img/anchoitas.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ANCHOITAS</h5>
+                        <p class="card-text">Peso: 500g.</p>
+                        <p class="card-text">Precio: 900</p>
+                        <a href="#" class="btn btn_agregar">AGREGAR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!--ends productos -->
+
+    <footer class="d-flex bd-highlight mb-3">
+        <ul class="footer">
+          <li>Tel:1133-7777</li>
+          <li>Direccion: Av. Callao y Santa Fe, CABA</li>
+          <li>Email:sanjulian@gmail.com</li>
+        </ul>
+       <div class="d-flex justify-content-end ">
+        <p class="d-flex align-items-end pie_redes">Seguinos en nuestras redes!</p>
+        <a href="https://facebook.com" target="_blank">
+          <img class="footer" src="../img/facebook.png" alt="seguinos en nuestras redes">
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+          <img class="footer"  src="../img/twitter.png" alt="">
+        </a>
+      </div>
+      </footer>
+
+
+
+
+    <link rel="stylesheet" href="../js/bootstrap.min.js">
+</body>
+
+</html>

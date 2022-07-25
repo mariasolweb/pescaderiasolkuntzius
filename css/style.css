@@ -5,6 +5,12 @@ h2,h3,h4 {
     font-style: italic;
 
 }
+body{
+    background-color: whitesmoke;
+}
+footer{
+    background-color:rgba(176, 196, 222, 0.8);
+}
 .bg_lightblue{
     background-color:  rgba(176, 196, 222, 0.8);
     
@@ -131,7 +137,7 @@ font-family:'Roboto', sans-serif;
     color: rgb(18, 52, 116);
     list-style: none;
     margin-top: 30px;
-    background-color: rgba(128, 128, 128, 0.561);
+
    
 }
 .footer img{
@@ -144,3 +150,109 @@ width: 40%;
     margin-left: 43em;
    
 }
+
+
+#categorias_prod {
+    background-color: whitesmoke;
+}
+
+#productos {
+    background-color: whitesmoke;
+}
+.titulo_prod{
+    text-align: center;
+    background-color: rgb(18, 52, 116);
+}
+
+.titulo_prod h2{
+    font-style: italic;
+}
+.titulo_prod h1{
+    color: white;
+}
+
+.card img{
+    width: 70%;
+}
+
+.btn_agregar{
+    background-color:rgba(255, 255, 0, 0.572);
+    border: solid rgba(128, 128, 128, 0.486);
+    }
+
+.categ_text{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.categ_text h6{
+    color: rgb(18, 52, 116);
+    font-weight: bold;
+    margin: 8px 0 16px;
+    font-size: 1.4rem;
+}
+
+.titulo_rec {
+background-color: rgb(18, 52, 116);
+font-family:'Roboto', sans-serif; 
+text-align: center;
+}
+.titulo_rec h2{
+font-style: italic;
+font-size: 1.6rem;
+}
+.titulo_rec h1{
+    color: white;
+}
+.titulo_rec h3{
+    color: rgba(176, 196, 222, 0.8);
+   font-size: 130%;
+   padding-bottom: 10px;
+}
+
+.accordion-button{
+    color: rgb(18, 52, 116);
+    border: solid rgba(176, 196, 222, 0.8);
+}
+
+.section img{
+    padding-top: 5px;
+    width: 350px;
+}
+.section3{
+    margin-left: 33%;
+}
+
+.btn_envio{
+    background-color: rgba(255, 255, 0, 0.568);
+    font-family:'Roboto', sans-serif;
+}
+
+.card_envio{
+margin-top: 40px;
+}
+.btn_entrega{
+    background-color: rgba(255, 255, 0, 0.568);
+    font-family:'Roboto', sans-serif;
+    margin-bottom: 5px;
+}
+.form-select{
+    width: 100%;
+}
+
+#form_contacto{
+    width: 70%;
+    padding-bottom: 40px;
+}
+#form_contacto .btn_contacto{
+background-color: rgba(255, 255, 0, 0.99);
+font-family: 'Roboto', sans-serif;
+}
+.btn_contacto:hover{
+    color:rgb(18, 52, 116);
+}
+
+
+
+

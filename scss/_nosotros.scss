@@ -1,0 +1,89 @@
+.article1 {
+    background-color: $mainColor;
+    width: $w-70;
+    padding: 20px 50px;
+    border: solid $orangered 2px;
+    margin: 2rem auto;
+}
+
+.foto_art1 {
+    display: block;
+}
+
+.foto_art1 img {
+    width: 60%;
+    display: block;
+    margin: auto;
+
+}
+
+.bg_pescaderia {
+    background-image: url(/img/header.png);
+    color: rgba(176, 196, 222, 0.8);
+    font-family: $secondFont;
+    text-align: $textCenter;
+
+    h1 {
+        color: $white;
+        font-family: $fontMain;
+        text-align: $textCenter;
+
+    }
+
+
+    .button {
+        background-color: $yellow;
+        font-family: $fontMain;
+        color: $black;
+        font-size: $textSm;
+
+    }
+
+    p {
+        color: $secondColor;
+    }
+}
+
+
+.article2 {
+    font-family: $secondFont;
+    text-align: $textCenter;
+    color: $white;
+    margin-left: 15%;
+    margin-right: 15%;
+
+
+    h2 {
+        font-family: $fontMain;
+
+    }
+}
+
+.imagen_index img {
+    min-width: $w-60;
+
+
+}
+
+.article3 {
+    background-color: $mainColor;
+    width: cover;
+    font-family: $secondFont;
+    text-align: $textCenter;
+    color: $white;
+
+    p {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+.article4 {
+    width: cover;
+    font-family: $secondFont;
+    ;
+    text-align: $textCenter;
+    color: $black;
+    font-weight: $textlight;
+    margin-top: 30px;
+}

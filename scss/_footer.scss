@@ -1,0 +1,22 @@
+footer {
+    background-color: $secondColor;
+
+    .footer {
+        font-family: $fontMain;
+        color: $mainColor;
+        list-style: none;
+        margin-top: 30px;
+
+        img {
+            width: $w-40;
+        }
+    }
+}
+
+
+.pie_redes {
+    font-family: $fontMain;
+    color: $mainColor;
+    margin-left: 43em;
+
+}

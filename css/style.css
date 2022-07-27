@@ -1,262 +1,210 @@
+h2, h3, h4 {
+  color: yellow;
+  font-style: italic; }
 
+body {
+  background-color: whitesmoke; }
 
-h2,h3,h4 {
-    color: yellow;
-    font-style: italic;
+footer {
+  background-color: rgba(176, 196, 222, 0.8); }
 
-}
-body{
-    background-color: whitesmoke;
-}
-footer{
-    background-color:rgba(176, 196, 222, 0.8);
-}
-.bg_lightblue{
-    background-color:  rgba(176, 196, 222, 0.8);
-    
-}
+.bg_lightblue {
+  background-color: rgba(176, 196, 222, 0.8); }
 
-.bg_foto{
-    background-image: url(../img/header.png);
-    background-repeat: repeat-x;
-}
+.bg_foto {
+  background-image: url(../img/header.png);
+  background-repeat: repeat-x; }
 
-.form_buscar{
-    position: absolute;
-    top: 10px;
-    right: 1rem;
+.form_buscar {
+  position: absolute;
+  top: 10px;
+  right: 1rem; }
 
-}
+#botonera ul li a {
+  color: #123474;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em; }
 
-#botonera ul li a{
-    color: rgb(18, 52, 116);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700; 
-    font-size: 1.3em;
-   
-}
-    #botonera ul li a:hover {
-        color: orangered;
-    }
+#botonera ul li a:hover {
+  color: orangered; }
 
-        #botonera button{
-            color:rgb(18, 52, 116);
-            border-color: rgb(18, 52, 116);
-        }
+#botonera button {
+  color: #123474;
+  border-color: #123474; }
 
-.bg_blue{
-    background-color: rgb(18, 52, 116);
-}
+.bg_blue {
+  background-color: #123474; }
 
-.article1{
-    background-color: rgb(18, 52, 116);
-    width: 70%;
-    padding: 20px 50px;
-    border: solid orangered 2px ;
-    margin: 2rem auto;
-}
+.article1 {
+  background-color: #123474;
+  width: 70%;
+  padding: 20px 50px;
+  border: solid orangered 2px;
+  margin: 2rem auto; }
 
-.foto_art1{
-display: block;
-}
+.foto_art1 {
+  display: block; }
 
-.foto_art1 img{
-    width: 60%;
-    display: block;
-    margin: auto;
-    
-}
+.foto_art1 img {
+  width: 60%;
+  display: block;
+  margin: auto; }
 
 .bg_pescaderia {
-    background-image: url(/img/header.png);
-    color:rgba(176, 196, 222, 0.8);
-    font-family: 'Roboto Condensed', sans-serif;;
-    text-align: center;
-     
-}
-.bg_pescaderia h1{
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    
-}
+  background-image: url(/img/header.png);
+  color: rgba(176, 196, 222, 0.8);
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center; }
 
-.button{
-    background-color:yellow;
-    font-family: 'Roboto', sans-serif;
-    color:black;
-    font-size: small;
-    
-}
+.bg_pescaderia h1 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center; }
+
+.button {
+  background-color: yellow;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: small; }
 
 .text_lightblue {
-    color: rgba(176, 196, 222, 0.8);
-}
+  color: rgba(176, 196, 222, 0.8); }
 
-.article2{
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;
-    color: white; 
-    margin-left: 15%;
-    margin-right: 15%;
-}
+.article2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  color: white;
+  margin-left: 15%;
+  margin-right: 15%; }
 
-.article2 h2{
-font-family:'Roboto', sans-serif;
+.article2 h2 {
+  font-family: 'Roboto', sans-serif; }
 
-}
+.imagen_index img {
+  min-width: 60%; }
 
-.imagen_index img{
-    min-width: 60%;
-   
-    
-}
-.article3{
-    background-color: rgb(18, 52, 116);
-    width: cover;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;
-    color: white;  
-       
-}
+.article3 {
+  background-color: #123474;
+  width: cover;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  color: white; }
 
-.article3 p{
-    margin-left: 15%;
-    margin-right: 15%;
-}
+.article3 p {
+  margin-left: 15%;
+  margin-right: 15%; }
 
-.article4{
-    width: cover;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;
-    color: black;  
-    font-weight: 300;
-    margin-top: 30px;
-}
-.footer{
-    font-family:'Roboto', sans-serif;
-    color: rgb(18, 52, 116);
-    list-style: none;
-    margin-top: 30px;
+.article4 {
+  width: cover;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  color: black;
+  font-weight: 300;
+  margin-top: 30px; }
 
-   
-}
-.footer img{
-width: 40%;
-}
+.footer {
+  font-family: 'Roboto', sans-serif;
+  color: #123474;
+  list-style: none;
+  margin-top: 30px; }
 
-.pie_redes{
-    font-family: 'Roboto', sans-serif;
-    color: rgb(18, 52, 116);
-    margin-left: 43em;
-   
-}
+.footer img {
+  width: 40%; }
 
+.pie_redes {
+  font-family: 'Roboto', sans-serif;
+  color: #123474;
+  margin-left: 43em; }
 
 #categorias_prod {
-    background-color: whitesmoke;
-}
+  background-color: whitesmoke; }
 
 #productos {
-    background-color: whitesmoke;
-}
-.titulo_prod{
-    text-align: center;
-    background-color: rgb(18, 52, 116);
-}
+  background-color: whitesmoke; }
 
-.titulo_prod h2{
-    font-style: italic;
-}
-.titulo_prod h1{
-    color: white;
-}
+.titulo_prod {
+  text-align: center;
+  background-color: #123474; }
 
-.card img{
-    width: 70%;
-}
+.titulo_prod h2 {
+  font-style: italic; }
 
-.btn_agregar{
-    background-color:rgba(255, 255, 0, 0.572);
-    border: solid rgba(128, 128, 128, 0.486);
-    }
+.titulo_prod h1 {
+  color: white; }
 
-.categ_text{
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    padding-top: 40px;
-    padding-left: 40px;
-}
-.categ_text h6{
-    color: rgb(18, 52, 116);
-    font-weight: bold;
-    margin: 8px 0 16px;
-    font-size: 1.4rem;
-}
+.card img {
+  width: 70%; }
+
+.btn_agregar {
+  background-color: rgba(255, 255, 0, 0.572);
+  border: solid rgba(128, 128, 128, 0.486); }
+
+.categ_text {
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 40px;
+  padding-left: 40px; }
+
+.categ_text h6 {
+  color: #123474;
+  font-weight: bold;
+  margin: 8px 0 16px;
+  font-size: 1.4rem; }
 
 .titulo_rec {
-background-color: rgb(18, 52, 116);
-font-family:'Roboto', sans-serif; 
-text-align: center;
-}
-.titulo_rec h2{
-font-style: italic;
-font-size: 1.6rem;
-}
-.titulo_rec h1{
-    color: white;
-}
-.titulo_rec h3{
-    color: rgba(176, 196, 222, 0.8);
-   font-size: 130%;
-   padding-bottom: 10px;
-}
+  background-color: #123474;
+  font-family: 'Roboto', sans-serif;
+  text-align: center; }
 
+.titulo_rec h2 {
+  font-style: italic;
+  font-size: 1.6rem; }
 
+.titulo_rec h1 {
+  color: white; }
 
-.accordion-button{
-    color: rgb(18, 52, 116);
-    border: solid rgba(176, 196, 222, 0.8);
-}
+.titulo_rec h3 {
+  color: rgba(176, 196, 222, 0.8);
+  font-size: 130%;
+  padding-bottom: 10px; }
 
-.section img{
-    padding-top: 5px;
-    width: 350px;
-}
-.section3{
-    margin-left: 33%;
-}
+.accordion-button {
+  color: #123474;
+  border: solid rgba(176, 196, 222, 0.8); }
 
-.btn_envio{
-    background-color: rgba(255, 255, 0, 0.568);
-    font-family:'Roboto', sans-serif;
-}
+.section img {
+  padding-top: 5px;
+  width: 350px; }
 
-.card_envio{
-margin-top: 40px;
-}
-.btn_entrega{
-    background-color: rgba(255, 255, 0, 0.568);
-    font-family:'Roboto', sans-serif;
-    margin-bottom: 5px;
-}
-.form-select{
-    width: 100%;
-}
+.section3 {
+  margin-left: 33%; }
 
-#form_contacto{
-    width: 70%;
-    padding-bottom: 40px;
-}
-#form_contacto .btn_contacto{
-background-color: rgba(255, 255, 0, 0.99);
-font-family: 'Roboto', sans-serif;
-}
-.btn_contacto:hover{
-    color:rgb(18, 52, 116);
-}
+.btn_envio {
+  background-color: rgba(255, 255, 0, 0.568);
+  font-family: 'Roboto', sans-serif; }
 
-.scale:hover{
-        transform: scaleX(1.12)
+.card_envio {
+  margin-top: 40px; }
 
-}
+.btn_entrega {
+  background-color: rgba(255, 255, 0, 0.568);
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 5px; }
+
+.form-select {
+  width: 100%; }
+
+#form_contacto {
+  width: 70%;
+  padding-bottom: 40px; }
+
+#form_contacto .btn_contacto {
+  background-color: rgba(255, 255, 0, 0.99);
+  font-family: 'Roboto', sans-serif; }
+
+.btn_contacto:hover {
+  color: #123474; }
+
+.scale:hover {
+  transform: scaleX(1.12); }

@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--meta seo-->
+    <meta name="description" content="Pescados y Mariscos frescos de Mar, de primera calidad.">
+    <meta name="keywords" content="pescados, mariscos, productos de mar, pescados rebozados, productos de mar elaborados,  pescado azul, pesca del dia, omega 3, pescado fresco, pescado congelado, salmon.">
+
     <!-- mi css -->
     <link rel="stylesheet" href="../css/style.css">
 
@@ -20,7 +25,7 @@
 <body>
 
     <!--  inicia nav-->
-    <div class="bg_foto ">
+    <header class="bg_foto ">
         <nav class="navbar navbar-expand-lg bg_lightblue " id="botonera">
             <div class="container-fluid ">
                 <a class="navbar-brand" href="../index.html">
@@ -57,20 +62,18 @@
                                 class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
                 </div>
-
-
-
         </nav>
-    </div>
+    </header>
     <!-- ends nav-->
+
     <!--inicia card productos-->
     <div class="container-fluid row ">
         <div class="titulo_prod">
             <h1>PRODUCTOS</h1>
             <h2>FRESCOS</h2>
         </div>
-        <div id="categorias_prod" class="col-3 g-2 categ_text">
-            <h6>CATEGORIAS</h6>
+        <section id="categorias_prod" class="col-3 g-2 categ_text">
+            <h3>CATEGORIAS</h3>
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                 <label class="form-check-label" for="flexRadioDefault1">
@@ -95,98 +98,98 @@
                     REBOZADOS
                 </label>
             </div>
-        </div>
+        </section>
 
 
 
-        <div id="productos" class=" row col-9 row-cols-1 row-cols-md-3 g-2">
+        <section id="productos" class=" row col-9 row-cols-1 row-cols-md-3 g-2">
             <div>
                 <div class="card h-100 ">
-                    <img src="../img/merluza.png" class="card-img-top " alt="foto de merluza">
+                    <img src="../img/merluza.png" class="card-img-top scale" alt="filet de merluza sin espinas fresco">
                     <div class="card-body">
                         <h5 class="card-title">MERLUZA</h5>
                         <p class="card-text">Peso: 500g.</p>
                         <p> Precio: $990</p>
-                        <a href="#" class="btn btn_agregar">AGREGAR</a>
+                        <a class="btn_agregar" href="#" class="btn ">AGREGAR</a>
                     </div>
                 </div>
             </div>
             <div>
                 <div class="card h-100">
-                    <img src="../img/calamar.png" class="card-img-top" alt="...">
+                    <img src="../img/calamar.png" class="card-img-top scale" alt="calamar entero fresco">
                     <div class="card-body">
                         <h5 class="card-title">CALAMAR ENTERO</h5>
                         <p class="card-text">This is a short card.</p>
-                        <a href="#" class="btn btn_agregar">AGREGAR</a>
+                        <a class="btn_agregar" href="#" class="btn ">AGREGAR</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="../img/abadejo.png" class="card-img-top " alt="...">
+                    <img src="../img/abadejo.png" class="card-img-top scale" alt="filet de abadejo fresco.">
                     <div class="card-body">
                         <h5 class="card-title">ABADEJO</h5>
                         <p class="card-text">Peso: 1Kg.</p>
                         <p class="card-text">Precio: 1500</p>
-                        <a href="#" class="btn btn_agregar">AGREGAR</a>
+                        <a class="btn_agregar" href="#" class="btn ">AGREGAR</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="../img/salmon.png" class="card-img-top scale" alt="...">
+                    <img src="../img/salmon.png" class="card-img-top scale" alt="trozos de salmon rosado fresco">
                     <div class="card-body">
                         <h5 class="card-title">SALMON</h5>
                         <p class="card-text">Peso: 1Kg.</p>
                         <p class="card-text">Precio: 3600</p>
-                        <a href="#" class="btn btn_agregar">AGREGAR</a>
+                        <a class="btn_agregar" href="#" class="btn ">AGREGAR</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="../img/cornalitos.png" class="card-img-top" alt="...">
+                    <img src="../img/cornalitos.png" class="card-img-top scale" alt="cornalitos enteros frescos">
                     <div class="card-body">
                         <h5 class="card-title">CORNALITOS</h5>
                         <p class="card-text">Peso: 1Kg.</p>
                         <p class="card-text">Precio: 1800</p>
-                        <a href="#" class="btn btn_agregar">AGREGAR</a>
+                        <a class="btn_agregar" href="#" class="btn">AGREGAR</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="../img/anchoitas.png" class="card-img-top" alt="...">
+                    <img src="../img/anchoitas.png" class="card-img-top scale" alt="anchoitas frescas">
                     <div class="card-body">
                         <h5 class="card-title">ANCHOITAS</h5>
                         <p class="card-text">Peso: 500g.</p>
                         <p class="card-text">Precio: 900</p>
-                        <a href="#" class="btn btn_agregar">AGREGAR</a>
+                        <a class="btn_agregar" href="#" class="btn ">AGREGAR</a>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
 
-    </div>
+
     <!--ends productos -->
 
     <footer class="d-flex bd-highlight mb-3">
         <ul class="footer">
-          <li>Tel:1133-7777</li>
-          <li>Direccion: Av. Callao y Santa Fe, CABA</li>
-          <li>Email:sanjulian@gmail.com</li>
+            <li>Tel:1133-7777</li>
+            <li>Direccion: Av. Callao y Santa Fe, CABA</li>
+            <li>Email:sanjulian@gmail.com</li>
         </ul>
-       <div class="d-flex justify-content-end ">
-        <p class="d-flex align-items-end pie_redes">Seguinos en nuestras redes!</p>
-        <a href="https://facebook.com" target="_blank">
-          <img class="footer" src="../img/facebook.png" alt="seguinos en nuestras redes">
-        </a>
-        <a href="https://twitter.com/" target="_blank">
-          <img class="footer"  src="../img/twitter.png" alt="">
-        </a>
-      </div>
-      </footer>
+        <div class="d-flex justify-content-end ">
+            <p class="d-flex align-items-end pie_redes">Seguinos en nuestras redes!</p>
+            <a href="https://facebook.com" target="_blank">
+                <img class="footer" src="../img/facebook.png" alt="seguinos en nuestras redes">
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <img class="footer" src="../img/twitter.png" alt="">
+            </a>
+        </div>
+    </footer>
 
 
 

@@ -1,0 +1,28 @@
+Agregue meta description y meta keywords en cada pagina del html.
+
+En index:
+<meta name="description" content="Pescados y Mariscos frescos de Mar,
+ de primera calidad.">
+<meta name="keywords" content="pescados, mariscos, productos de mar, pescados rebozados, 
+omega 9, pescado fresco, pescado congelado.">
+
+Pagina Productos:
+<meta name="description" content="Pescados y Mariscos frescos de Mar, de primera calidad.">
+<meta name="keywords" content="pescados, mariscos, productos de mar, pescados rebozados, productos de mar elaborados,  pescado azul, pesca del dia,
+ omega 3, pescado fresco, pescado congelado, salmon.">
+
+Pagina envios:
+<meta name="description" content="Envio a domicilio de pescado y marisco, compra online de pescado fresco.">
+<meta name="keywords" content="Envio a domicilio de productos de pescaderia, pescados y mariscos frescos, congelados, 
+platos elaborados con pescado, fish, productos de mar a domicilio.">
+
+Pagina Recetas:
+<!--meta seo-->
+ <meta name="description" content="Recetas con pescado y mariscos frescos o congelados.">
+ <meta name="keywords" content="recetas, recetas con pescado, recetas con productos de mar, 
+receta facil con mariscos, receta rapida con pescado.">
+
+Pagina Contacto:
+<meta name="description" content="contactar a pescaderia san julian.">
+<meta name="keywords" content="contacto pescaderia san julian, inquietudes, 
+consultas, dudas, quejas, reclamos,ayuda, newsletter, formulario.">

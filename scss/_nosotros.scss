@@ -8,18 +8,19 @@
 
 .foto_art1 {
     display: block;
+    
+    img {
+        width: $w-60;
+        display: block;
+        margin: auto;
+    
 }
-
-.foto_art1 img {
-    width: 60%;
-    display: block;
-    margin: auto;
-
+ 
 }
 
 .bg_pescaderia {
     background-image: url(/img/header.png);
-    color: rgba(176, 196, 222, 0.8);
+    color: $secondColor;
     font-family: $secondFont;
     text-align: $textCenter;
 
@@ -42,7 +43,7 @@
     p {
         color: $secondColor;
     }
-}
+    }
 
 
 .article2 {
@@ -51,7 +52,6 @@
     color: $white;
     margin-left: 15%;
     margin-right: 15%;
-
 
     h2 {
         font-family: $fontMain;
@@ -81,9 +81,8 @@
 .article4 {
     width: cover;
     font-family: $secondFont;
-    ;
     text-align: $textCenter;
-    color: $black;
+    color: map-get($map: $paleta, $key: bl);
     font-weight: $textlight;
     margin-top: 30px;
 }

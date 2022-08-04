@@ -1,40 +1,39 @@
 #categorias_prod {
-    background-color: whitesmoke;
+    background-color: $whitesm;
 }
 
 #productos {
-    background-color: whitesmoke;
-}
-.titulo_prod{
-    text-align: center;
-    background-color: rgb(18, 52, 116);
+    background-color: $whitesm;
 }
 
-.titulo_prod h2{
-    font-style: italic;
-}
-.titulo_prod h1{
-    color: white;
-}
+.titulo_prod {
+    text-align: $textCenter;
+    background-color: $mainColor;
 
-.card img{
-    width: 70%;
-}
-
-.btn_agregar{
-    background-color:rgba(255, 255, 0, 0.572);
-    border: solid rgba(128, 128, 128, 0.486);
+    h2 {
+        font-style: $italic;
     }
 
-.categ_text{
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+    h1 {
+        color: $white;
+    }
+}
+
+.card img {
+    width: $w-70;
+}
+
+.categ_text {
+    font-weight: $textRegular;
+    font-family: $fontMain;
     padding-top: 40px;
     padding-left: 40px;
-}
-.categ_text h6{
-    color: rgb(18, 52, 116);
-    font-weight: bold;
-    margin: 8px 0 16px;
-    font-size: 1.4rem;
+
+    h3 {
+        @include texto ($mainColor, 1.4rem);
+        font-weight: bold;
+        margin: 8px 0 16px;
+
+    }
+
 }

@@ -1,35 +1,37 @@
-
 .titulo_rec {
-    background-color: rgb(18, 52, 116);
-    font-family:'Roboto', sans-serif; 
-    text-align: center;
+    background-color: $mainColor;
+    font-family: $fontMain;
+    text-align: $textCenter;
+
+    h2 {
+        font-style: $italic;
+        font-size: 1.6rem;
     }
-    .titulo_rec h2{
-    font-style: italic;
-    font-size: 1.6rem;
+
+    h1 {
+        color: $white;
     }
-    .titulo_rec h1{
-        color: white;
+
+    h3 {
+        color: $secondColor;
+        font-size: 130%;
+        padding-bottom: 10px;
     }
-    .titulo_rec h3{
-        color: rgba(176, 196, 222, 0.8);
-       font-size: 130%;
-       padding-bottom: 10px;
-    }
-    
-    
-    
-    .accordion-button{
-        color: rgb(18, 52, 116);
-        border: solid rgba(176, 196, 222, 0.8);
-    }
-    
-    .section img{
-        padding-top: 5px;
-        width: 350px;
-    }
-    .section3{
-        margin-left: 33%;
-    }
-    
-    
+
+
+}
+
+
+.accordion-button {
+    color: $mainColor;
+    border: solid $secondColor;
+}
+
+.section img {
+    padding-top: 5px;
+    width: 350px;
+}
+
+.section3 {
+    margin-left: 33%;
+}

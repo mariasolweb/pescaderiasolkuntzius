@@ -1,19 +1,59 @@
-
-h2,h3,h4 {
+h2,
+h3,
+h4 {
     color: $yellow;
     font-style: $italic;
 }
 
-body{
-    background-color:$whitesm;
+body {
+    background-color: $whitesm;
 }
 
-.bg_lightblue{
+.bg_lightblue {
     background-color: $bgLightblue;
-    
+
 }
 
 
-.bg_blue{
+.bg_blue {
     background-color: $bgBlue;
 }
+
+//extend
+
+.button {
+    background-color: $yellow;
+    font-family: $fontMain;
+    color: $black;
+    font-size: $textSm;
+
+}
+
+
+.btn_agregar {
+    @extend .button;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 35px;
+    background-color: $btnYellow;
+    &:hover{
+       color: $mainColor;
+       cursor: pointer;
+    }
+}
+
+//mixin
+@mixin texto ($color, $fontSize){
+    color: $color;
+    font-size: $fontSize;
+}
+    
+//maps
+$paleta: (
+    white: white,
+    wsmoke: whitesmoke,
+    bl: black,);

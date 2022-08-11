@@ -8,7 +8,9 @@ footer {
         margin-top: 30px;
 
         img {
-            width: $w-40;
+            width: $w-5;
+            display: flex;
+            justify-items: left;
         }
     }
 }
@@ -17,6 +19,7 @@ footer {
 .pie_redes {
     font-family: $fontMain;
     color: $mainColor;
-    margin-left: 43em;
+  
+   
 
 }

@@ -1,25 +1,11 @@
-footer {
+.pie-pagina {
+    width: 100%;
     background-color: $secondColor;
 
-    .footer {
-        font-family: $fontMain;
-        color: $mainColor;
-        list-style: none;
-        margin-top: 30px;
-
-        img {
-            width: $w-5;
-            display: flex;
-            justify-items: left;
-        }
+    .grupo1 {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        text-decoration: none;
     }
-}
-
-
-.pie_redes {
-    font-family: $fontMain;
-    color: $mainColor;
-  
-   
-
 }

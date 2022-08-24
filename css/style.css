@@ -18,20 +18,41 @@
     color: #123474;
     border-color: #123474; }
 
-footer {
+.pie-pagina {
+  width: 100%;
   background-color: rgba(176, 196, 222, 0.8); }
-  footer .footer {
-    font-family: "Roboto", sans-serif;
+  .pie-pagina .grupo1 {
+    font-family: "Roboto Condensed", sans-serif;
     color: #123474;
+    font-weight: 700;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
     list-style: none;
-    margin-top: 30px; }
-    footer .footer img {
-      width: 40%; }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 25px 25px; }
+    .pie-pagina .grupo1 h5, .pie-pagina .grupo1 .h5 {
+      color: #123474; }
+    .pie-pagina .grupo1 .red-social a {
+      display: inline-block;
+      text-decoration: none;
+      width: 70px;
+      height: 70px;
+      line-height: 20px;
+      color: #123474;
+      text-align: center;
+      transition: all 30ms ease; }
+      .pie-pagina .grupo1 .red-social a:hover {
+        color: #e9791a; }
+  .pie-pagina .grupo2 {
+    color: rgba(0, 0, 0, 0.552);
+    text-align: center; }
 
-.pie_redes {
-  font-family: "Roboto", sans-serif;
-  color: #123474;
-  margin-left: 43em; }
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr); } }
 
 h2, .h2,
 h3,
@@ -68,6 +89,23 @@ body {
   .btn_agregar:hover {
     color: #123474;
     cursor: pointer; }
+
+.body404 {
+  background: #00E7DC;
+  margin: 0;
+  padding: 0; }
+  .body404 overflow:hidden h1, .body404 overflow:hidden .h1 {
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0 0;
+    opacity: 0; }
+  .body404 svg {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
 
 .article1 {
   background-color: #123474;
@@ -197,6 +235,9 @@ body {
 
 .section3 {
   margin-left: 33%; }
+
+.ms-auto {
+  margin-left: auto; }
 
 #form_contacto {
   width: 70%;

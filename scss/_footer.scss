@@ -3,9 +3,53 @@
     background-color: $secondColor;
 
     .grupo1 {
+        font-family: $secondFont;
+        color: $mainColor;
+        font-weight: $textBold;
         width: 100%;
         max-width: 1200px;
         margin: auto;
-        text-decoration: none;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 25px 25px;
+
+
+        h5 {
+
+            color: $mainColor;
+        }
+
+        .red-social a {
+            display: inline-block;
+            text-decoration: none;
+            width: 70px;
+            height: 70px;
+            line-height: 20px;
+            color: $mainColor;
+            text-align: center;
+            transition: all 30ms ease;
+
+            &:hover {
+                color: $orange;
+            }
+
+        }
+
+    }
+
+    .grupo2 {
+        color: rgba(0, 0, 0, 0.552);
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+
+
     }
 }

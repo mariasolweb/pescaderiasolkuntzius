@@ -39,21 +39,46 @@ body {
     align-items: center;
     width: 105px;
     height: 35px;
-    background-color: $btnYellow;
-    &:hover{
-       color: $mainColor;
-       cursor: pointer;
+    background-color: $orange;
+
+    &:hover {
+        color: $mainColor;
+        cursor: pointer;
     }
 }
 
 //mixin
-@mixin texto ($color, $fontSize){
+@mixin texto ($color, $fontSize) {
     color: $color;
     font-size: $fontSize;
 }
-    
+
 //maps
-$paleta: (
-    white: white,
+$paleta: (white: white,
     wsmoke: whitesmoke,
-    bl: black,);
+    bl: black, );
+
+
+
+.body404 {
+    background: #00E7DC;
+    margin: 0;
+    padding: 0;
+
+    overflow:hidden h1 {
+        font-family: 'Nunito', sans-serif;
+        color: #fff;
+        text-align: center;
+        padding: 2em 0 0;
+        opacity: 0;
+    }
+
+    svg {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        width: 100%
+    }
+
+}

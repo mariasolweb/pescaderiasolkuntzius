@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "build":"purgecss --css css/style.css --content *.html -o css/style2.css"
-  
+    "build": "purgecss --css css/style.css --content *.html -o css/style2.css"
+
   },
   "repository": {
     "type": "git",

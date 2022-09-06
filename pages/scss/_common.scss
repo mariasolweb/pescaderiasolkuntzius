@@ -5,8 +5,11 @@ h4 {
     font-style: $italic;
 }
 
+
 body {
+    overflow-x: hidden;
     background-color: $whitesm;
+    
 }
 
 .bg_lightblue {
